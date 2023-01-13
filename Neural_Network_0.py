@@ -100,3 +100,59 @@ for i in range(5):
     print(str(round((1 - abs(max(output_vals) - 1))*100, 2)) + f"% {answers[output_vals.index(max(output_vals))]}")
     print()
     print()
+
+
+    
+# TERMINAL OUTPUT
+"""
+Neural_Network_0 NEURAL NETWORK INITIALIZED
+
+INPUT
+[1, 1, 0]
+[1, 1, 0]
+[1, 1, 0]
+
+OUTPUT
+1.0013 | -0.0121 | 0.0005 
+99.87% vertical
+
+
+INPUT
+[0, 1, 1]
+[0, 1, 1]
+[0, 1, 1]
+
+OUTPUT
+0.9999 | 0.0008 | -0.0002 
+99.99% vertical
+
+
+INPUT
+[1, 1, 1]
+[1, 1, 1]
+[0, 0, 0]
+
+OUTPUT
+-0.0009 | 0.9977 | -0.0051 
+99.77% horizontal
+
+
+INPUT
+[0, 0, 0]
+[0, 0, 0]
+[1, 1, 1]
+
+OUTPUT
+-0.007 | 1.0018 | -0.0001
+99.82% horizontal
+
+
+INPUT
+[1, 1, 1]
+[1, 1, 1]
+[1, 1, 1]
+
+OUTPUT
+-0.0017 | -0.0004 | 0.9989
+99.89% fill
+    """
